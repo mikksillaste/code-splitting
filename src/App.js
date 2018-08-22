@@ -44,7 +44,7 @@ class App extends Component {
         // } else {
         //     return <Page3 onRouteChange={this.onRouteChange} />
         // }
-        
+
         // Part 3 - Cleaner Code Splitting
         if (this.state.route === 'page1') {
             return <Page1 onRouteChange={this.onRouteChange}/>
